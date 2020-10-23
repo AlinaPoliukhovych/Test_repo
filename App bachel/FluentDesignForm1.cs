@@ -284,6 +284,11 @@ namespace App_bachel
             label55.Text = "Натисніть клавішу \"Оновити\", щоб дані в таблиці оновилися.";
             await Task.Delay(4000);
             label55.Text = "";
+            textBox21.Text = "";
+            label55.Visible = true;
+            label55.Text = "Натисніть клавішу \"Оновити\", щоб дані в таблиці оновилися.";
+            await Task.Delay(4000);
+            label55.Text = "";
         }
         public void DeletePriceList()
         {
